@@ -11,7 +11,7 @@ export default function Home({ exploreData, cardsData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kenny Airbnb</title>
+        <title>KKbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

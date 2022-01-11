@@ -13,6 +13,7 @@ function Header() {
             <div className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image 
                     src='https://cdn.icon-icons.com/icons2/644/PNG/512/red_hotel-building_icon-icons.com_59516.png' 
+                    alt=""
                     layout='fill'
                     objectFit="contain"
                     objectPosition='left'

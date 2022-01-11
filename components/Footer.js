@@ -30,7 +30,7 @@ function Footer() {
                 <p>Kenny</p>
                 <p>Presents</p>
                 <p>House Searching System</p>
-                <p>K</p>
+                <p>Have Fun</p>
                 <p>Join Now</p>
             </div>
             
