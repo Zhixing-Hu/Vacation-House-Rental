@@ -14,9 +14,9 @@ function Map({ searchResults }) {
     const [viewport, setViewport] = React.useState({
         width: '100%',
         height: '100%',
-        latitude: center.latitude,
+        latitude: (center.latitude-.15),
         longitude: center.longitude,
-        zoom: 12,
+        zoom: 11,
     })
 
     return (
