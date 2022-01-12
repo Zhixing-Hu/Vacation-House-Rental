@@ -7,12 +7,13 @@ import SmallCard from '../components/SmallCard'
 import MediumCard from '../components/MediumCard'
 import LargeCard from '../components/LargeCard'
 import Footer from '../components/Footer'
+import { HeartIcon } from "@heroicons/react/outline"
 export default function Home({ exploreData, cardsData }) {
   return (
     <div className={styles.container}>
       <Head>
         <title>KKbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://cdn.icon-icons.com/icons2/644/PNG/512/red_hotel-building_icon-icons.com_59516.png" />
       </Head>
 
       <Header />
@@ -45,7 +46,7 @@ export default function Home({ exploreData, cardsData }) {
         <LargeCard 
           img='https://links.papareact.com/4cj'
           title='The Greatest Outdoors'
-          description='Wishlists curated by Airbnb.'
+          description='Wishlists curated by KKbnb.'
           buttonText='Get Inspired'
         />
       </main>
