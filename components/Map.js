@@ -1,7 +1,7 @@
 import ReactMapGL, {Marker, Popup} from 'react-map-gl';
 import * as React from 'react';
 import getCenter from 'geolib/es/getCenter';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 
 function Map({ searchResults }) {
     const [selectedLocation, setSelectedLocation] = useState({});
