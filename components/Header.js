@@ -48,7 +48,7 @@ function Header({ placeholder }) {
     }
     
     return (
-        <header className="sticky top-2 z-50 grid grid-cols-3 bg-white shadow-md py-5 px-5 md:px-10">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-5 px-5 md:px-10">
             <div onClick={() => router.push('/')} className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image 
                     src='https://cdn.icon-icons.com/icons2/644/PNG/512/red_hotel-building_icon-icons.com_59516.png' 

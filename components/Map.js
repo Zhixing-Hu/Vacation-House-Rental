@@ -1,5 +1,4 @@
 import ReactMapGL, {Marker, Popup} from 'react-map-gl';
-import * as React from 'react';
 import getCenter from 'geolib/es/getCenter';
 import { useState } from 'react';
 
@@ -11,7 +10,7 @@ function Map({ searchResults }) {
         latitude: result.lat,
     }))
     const center = getCenter(coordinates);
-    const [viewport, setViewport] = React.useState({
+    const [viewport, setViewport] = useState({
         width: '100%',
         height: '100%',
         latitude: (center.latitude-.15),
@@ -22,7 +21,7 @@ function Map({ searchResults }) {
     return (
         <ReactMapGL 
             mapStyle='mapbox://styles/kennyhu/ckyc0zgpg34fn14o10unhlb80' 
-            mapboxApiAccessToken='pk.eyJ1Ijoia2VubnlodSIsImEiOiJja3ljMHV3dWcwa21mMnZzMGY2OTgwZDJwIn0.OvBAYHI0GNTKeq_cBaUMZg'
+            mapboxApiAccessToken={process.env.mapbox_key}
             {...viewport}
             onViewportChange={(nextViewport) => setViewport(nextViewport)}
         >
